@@ -1,36 +1,65 @@
 {
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.renderWhitespace": "trailing",
-  "editor.rulers": [120],
-  "editor.suggest.selectionMode": "always",
-  "editor.formatOnSave": true,
-  "explorer.autoReveal": false,
-  "explorer.compactFolders": false,
-  "explorer.sortOrder": "type",
-  "workbench.editor.enablePreview": true,
-  "terminal.integrated.scrollback": 100000000,
-  "[json]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "mtxr.sqltools"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml"
-  },
-  "indentRainbow.includedLanguages": ["yaml", "dockercompose"],
-  "code-runner.executorMap": {
-    "typescript": "tsx",
-    "javascript": "tsx"
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.rulers": [140],
+    "editor.suggest.selectionMode": "always",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "off",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.biome": "explicit"
+    },
+    // "editor.fontSize": 12,
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "type",
+    "workbench.editor.enablePreview": true,
+    "terminal.integrated.scrollback": 100000000,
+    // "terminal.integrated.fontSize": 12,
+    "workbench.editorAssociations": {
+      "*.md": "vscode.markdown.preview.editor"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[sql]": {
+      "editor.defaultFormatter": "mtxr.sqltools"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "[java]": {
+      "editor.defaultFormatter": "redhat.java"
+    },
+    "[go]": {
+      "editor.defaultFormatter": "golang.go"
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "rust-analyzer.linkedProjects": [".\\Cargo.toml"],
+    "sqltools.format": {
+      "language": "sql",
+      "linesBetweenQueries": 3,
+      "reservedWordCase": "upper"
+    },
+    "indentRainbow.includedLanguages": ["yaml", "dockercompose"],
+    "java.settings.url": ".vscode/settings.prefs",
+    "java.configuration.updateBuildConfiguration": "interactive"
   }
-}

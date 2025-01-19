@@ -1,1 +1,6 @@
 /node_modules
+/tmp
+/dist
+
+.env.*
+!.env.sample

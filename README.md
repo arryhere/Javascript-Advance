@@ -1,5 +1,3 @@
 # Javascript - Advance
 
-## Intial Setup
-
-- npm i
+[jsv9000](https://www.jsv9000.app/)
